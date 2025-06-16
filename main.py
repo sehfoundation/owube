@@ -1,11 +1,6 @@
 from fastapi import FastAPI
-from .db import database, Base
-from .users import (
-    engine,
-    get_auth_router,
-    get_register_router,
-    get_users_router
-)
+from db import database, Base
+from users import engine, get_auth_router, get_register_router, get_users_router
 
 
 app = FastAPI(
