@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+fastapi-users[sqlalchemy2]
+sqlalchemy>=1.4
+databases[mysql]
+pymysql
+python-jose[cryptography]
+passlib[bcrypt]
